@@ -1,0 +1,121 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="description" content="Vanderlei de Oliveira lemos, Portifolio, De Desenvolvimento Web">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title >Portifolio Vandelei Lemos</title>
+
+    </head>
+    <body>
+        <!----Header---->
+        <header>
+            <div class="top-header">
+                <div class="but-nav" id="but-nav">
+                    <i class="fa-2x fas fa-bars" id="botao" onclick="mostra()"></i>
+                </div>
+                <div class="icone-header">
+                    <a href="https://www.linkedin.com/in/vanderlei-lemos-09/"><i class="fa-2x fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Delei09"><i class="fa-2x fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/vanderlei.lemos.90/"><i class="fa-2x fab fa-facebook"></i></a>
+                </div>
+                <div class="tel-header">
+                    <a href="https://api.whatsapp.com/send?phone=+5535997111055">  <i class="fa-2x fab fa-whatsapp"></i> </a>
+                    <h4>Contato </h4>
+                    <h3>(35) 997111055</h3>
+                </div>
+            </div>
+            <div class="nav-header esconder">
+                <ul data-animacao ="left">
+                    <li><a href="#Home" >Home</a></li>
+                    <li><a href="#quem" >Quem Sou</a></li>
+                    <li><a href="#portifolio" >Portifólio</a></li>
+                    <li><a href="#contato" >Contato</a></li>
+                </ul>
+            </div>
+            <div class="bottom-header">
+                <h1>        Vanderlei De Oliveira Lemos</h1>
+                <h3 id="texto-maquina">Desenvolvedor Front-End Jr</h3>
+            </div> 
+        </header>
+        <h4>Quem sou</h4>
+        <section class="quem " id="quem" >
+            <div class="item-quem" data-animacao ="left">
+                  <img src="imagens/eu.png" >
+            </div>
+            <div class="item-quem" data-animacao ="center">
+                <p>Olá <i class="far fa-laugh-beam"></i><br><br></p>
+                <p>   Me chamo Vanderlei de Oliveira Lemos, sou formado em Análise e Desenvolvimento de Sistemas pela Faculdade Cesumar e em Técnico em Eletrônica com Enfase em Telecomunicações pela ETEFMC, possuo experiencia com desenvolvimento Front-end em trabalhos freelancer, onde me aprofundei nas tecnologias Html5, Css3, Javascript Bootstrap, Jquery.</p><br><br>
+                <p>Quer me conhecer mais? me manda  um whatsapp vamos conversar!   <i class="far fa-smile-beam"></i>
+                </p><br>
+            </div>
+            <div class="item-quem citacao" data-animacao ="right">
+                <p><span class="aspas">"</span>Os obstáculos não podem te deter. Os problemas não podem te deter. Mais que tudo, outras pessoas não podem te deter. Somente você pode deter a si mesmo. <span class="aspas">"</span></p><br>
+                <p>Jeffrey Gitomer</p>
+            </div>
+        </section >
+        
+        <!----Slide-Skill--->
+    <section id="items-wrapper " class ='skill-carousel' data-animacao ="left">
+        <h2 class="skill-name">Skill</h2>
+        <ol class="">
+            <li data-target="#skil-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#skil-carousel" data-slide-to="1"></li>
+            <li data-target="#skil-carousel" data-slide-to="2"></li>
+        </ol>
+        <div id="items">
+            <div class="item"><i class="fa-3x fab fa-html5">Html5</i></div>
+            <div class="item"><i class="fa-3x fab fa-css3-alt">Css3</i></div>
+            <div class="item"><i class="fa-3x fab fa-js">Java Script</i></div>
+            <div class="item"><i class="fa-3x fab fa-bootstrap">Bootstrap</i></div>
+            <div class="item"><i class="fa-3x fab fa-php">PHP</i></div>
+            <div class="item"><i class="fa-3x fab fa-wordpress">Wordpress</i></div>
+        </div>
+    </section>
+        <!----Portifolio---->   
+    <section class="portifolio"  id="portifolio">
+        <h2>Portifólio</h2>
+        <h3>Alguns Projetos ja criados </h3>
+        <div class="portifolio-grade">
+            <div class="item-portifolio " data-animacao ="center">
+                <a href="https://delei09.github.io/mercado.github.io/" > <img src = "imagens/portifolio/1.png"> </a>
+            </div>
+             <div class="item-portifolio" data-animacao ="center">
+                <a href="https://delei09.github.io/foto.github.io/" > <img src = "imagens/portifolio/3.png"> </a>
+
+            </div>
+             <div class="item-portifolio" data-animacao ="center">
+                <a href="https://delei09.github.io/medico.github.io/" > <img src = "imagens/portifolio/2.png"> </a>
+
+            </div>
+             <div class="item-portifolio" data-animacao ="center">
+            <a href="https://delei09.github.io/guitar-site.github.io/" > <img src = "imagens/portifolio/4.png"> </a>
+            </div>
+        </div>
+    </section>
+        
+        <!----Rodapé---->
+        <footer id="contato">
+            <h2> Contato</h2>
+            <div class="icone-footer">
+                    <a href="https://www.linkedin.com/in/vanderlei-lemos-09/"><i class="fa-2x fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Delei09"><i class="fa-2x fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/vanderlei.lemos.90/"><i class="fa-2x fab fa-facebook"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=+5535997111055"><i class="fa-2x fab fa-whatsapp"></i></a>
+             </div>
+            <h3>Vanderlei_09@outlook.com</h3>
+            <h5>Design e Dev: Vanderlei Lemos</h5>
+        </footer>
+        
+       
+       
+       <script src="animacao.js"></script>
+        
+    </body>
+
+</html>
