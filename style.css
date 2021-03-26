@@ -118,7 +118,7 @@ h4{
    
 }
 .item-quem img{
-    border-radius: 20px;
+    border-radius: 10%;
     border: solid 1px black;
 }
 
@@ -204,8 +204,72 @@ h4{
   pointer-events: none;
     margin: 10px;
 }
-.item img{
-    
+
+
+/*Formulario*/
+.formulario{
+     background-image:url(imagens/formulario.png);
+    background-repeat: space;
+    background-size: auto; 
+}
+.form-btg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    padding: 20px;
+}
+.msg{
+    color: white;
+    max-width: 500px;
+}
+.msg h2{
+     font-size: 3em;
+    text-align: center;
+}
+.msg p{
+    font-size: 1.4em;
+    text-align: center;
+}
+.campo-form{
+    max-width: 50%;
+    margin: 20px;
+}
+.campo-form h2{
+    color: white;
+     font-size: 2em;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+form input{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    resize: vertical;
+    height: 100%;
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    resize: vertical;
+      height: 150;
+}
+form button{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 30px; 
 }
 
 /*footer*/
@@ -277,7 +341,15 @@ footer h5{
 }
 }
 @media screen and (max-width:510px){
-    
+    .campo-form h2{
+        font-size: 1.2em;
+    }
+    textarea{
+         height: 100%;
+    }
+    form button{
+    padding: 10px; 
+    }
     .fab{
         font-size: 1.3em;
         }
