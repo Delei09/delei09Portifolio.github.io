@@ -56,7 +56,7 @@ const scrollWheel = event => {
 }
 let count = 0
 setInterval(function(){
-    count += 100
+    count += 60
     if(count > 1200) count = 0
     document.querySelector("#items").scrollTo(count, 0)
 }, 1000)
